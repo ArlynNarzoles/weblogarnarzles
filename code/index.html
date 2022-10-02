@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weblog</title>
+     <link rel="stylesheet" href="astyle.css">
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1 style="font-size: 60px"><span style="color: black;"><span style="font-family:'Comic sans MS'" >&nbsp;My Weblog</span></span></h1>
+        </header>
+
+        <div id="main">
+
+        <div id="sidebar">
+            <form action="">
+                <input type="text" placeholder="Search...">
+                <button type="submit">search</button>
+              </form>
+
+              <a href="hamming.html"> &nbsp;&nbsp;<span style="color: red"> Hamming Distance of Two DNA</span></a>
+        
+        </div>
+
+
+        <div id="sidebar2">
+        <div class="narz">
+           <h1 style font-size=""> This student is always Moody</h1>
+            <p>&nbsp;Things this student loves:</p>
+            <h1 style="font-size: 14px">&nbsp;&nbsp;travel</h1>
+            <h1 style="font-size: 14px">&nbsp;&nbsp;sleep</h1>
+            <h1 style="font-size: 14px">&nbsp;&nbsp;playing online game</h1>
+            
+          
+            <form>
+              <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+              <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label><br>
+              <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving" checked> Loving</label>
+              <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
+              <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
+            </form>
+        </div>
+    </div>
+        <div id="column1">
+            <h1 style="font-family:'Comic sans MS'"> &nbsp;&nbsp;Post</h1>
+            <a onclick="resizeImage()" href="#" >&nbsp;&nbsp;<img src="img/my.png" id="img1" width="200px" height="200px"/><br/></a>
+            <h2></h2>
+            <script src="i.js"></script>
+            <h3> &nbsp;&nbsp;&nbsp;Arlyn Narzoles</h3>
+            <h4>&nbsp;&nbsp;BSIT-3101</h4>
+            <h5>&nbsp;&nbsp;San Francisco Mabini Batangas</h5>
+            <a onclick="remove()" href="#"> &nbsp;&nbsp;Show more...</a>
+
+
+            <script>
+                function remove(){
+                    document.querySelector('.narz').remove();
+                }
+        
+            </script>
+        </div>
+        </div>
+
+        <footer>
+            <h1 style="font-size: 15px"> &nbsp;&nbsp;&nbsp;&nbsp;"God freed me from all my fears. "</h1>
+            <h2 style="font-size: 12px">&nbsp;&nbsp;&nbsp;Psalm 34:4</h1>
+        </footer>
+    </div>
+    
+</body>
+</html>
